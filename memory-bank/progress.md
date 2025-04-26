@@ -2,10 +2,12 @@
 
 ### What Works
 - Initial project brief is documented.
-- Core memory bank files are being created.
+- Core memory bank files are created.
+- Git initialized and remote set.
+- Vite + React project initialized and merged into existing structure.
+- npm dependencies installed.
 
 ### What's Left to Build
-- Initialize the React project with Vite.
 - Configure Tailwind CSS.
 - Create and populate `iconicQuotes.json`.
 - Build the `QuoteCard.jsx` component with flip animation.
@@ -15,7 +17,9 @@
 - (Optional) Add season filter dropdown.
 
 ### Current Status
-- Creating initial memory bank files.
+- Vite + React project initialized and dependencies installed.
+- Project structure merged, all existing files preserved.
+- Ready for Tailwind CSS setup and further development.
 
 ### Known Issues
 - None yet.

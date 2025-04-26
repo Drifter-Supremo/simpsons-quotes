@@ -7,8 +7,9 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 ## 🛠️ PHASE 1: PROJECT SETUP
 
 ### 1.1 Initialize Vite + React Project
-- [ ] Run `npm create vite@latest simpsons -- --template react`
-- [ ] Navigate to the project folder and install dependencies
+- [x] Run `npm create vite@latest simpsons -- --template react`
+- [x] Navigate to the project folder and install dependencies
+- [x] Merge Vite + React scaffold into existing project, preserving memory bank and custom files
 
 ### 1.2 Set Up Folder Structure
 - [ ] Create `src/data/` and add `iconicQuotes.json`
