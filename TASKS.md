@@ -17,9 +17,9 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 - [x] Ensure `App.jsx`, `main.jsx`, and `index.css` are in `src/`
 
 ### 1.3 Configure Tailwind CSS
-- [ ] Install Tailwind CSS and initialize with `npx tailwindcss init`
-- [ ] Configure `tailwind.config.js` to include the necessary paths
-- [ ] Add Tailwind directives to `index.css`
+- [x] Install Tailwind CSS and initialize with `npx tailwindcss init`
+- [x] Configure `tailwind.config.js` to include the necessary paths
+- [x] Add Tailwind directives to `index.css`
 
 ### 1.4 Prepare Quote Data
 - [ ] Create `iconicQuotes.json` with at least 10 quotes, each including quote, character, episode, and season
