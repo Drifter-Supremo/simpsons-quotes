@@ -3,12 +3,14 @@
 ### Current Work Focus
 - Project setup: Vite + React initialized, npm dependencies installed, and project structure merged.
 - Git initialized and remote set.
+- src/data/iconicQuotes.json now contains the curated quotes from the root iconicQuotes.json file.
 
 ### Recent Changes
 - Initialized Git and set remote.
 - Initialized Vite + React project in a temp directory and merged into existing project.
 - Installed npm dependencies.
 - Preserved all custom and memory bank files.
+- Updated src/data/iconicQuotes.json with curated quotes from the root file.
 
 ### Next Steps
 - Configure Tailwind CSS in the project.

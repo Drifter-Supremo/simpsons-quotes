@@ -12,9 +12,9 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 - [x] Merge Vite + React scaffold into existing project, preserving memory bank and custom files
 
 ### 1.2 Set Up Folder Structure
-- [ ] Create `src/data/` and add `iconicQuotes.json`
-- [ ] Create `src/components/` and add `QuoteCard.jsx`
-- [ ] Ensure `App.jsx`, `main.jsx`, and `index.css` are in `src/`
+- [x] Create `src/data/` and add `iconicQuotes.json` (now using curated quotes from the root iconicQuotes.json file)
+- [x] Create `src/components/` and add `QuoteCard.jsx`
+- [x] Ensure `App.jsx`, `main.jsx`, and `index.css` are in `src/`
 
 ### 1.3 Configure Tailwind CSS
 - [ ] Install Tailwind CSS and initialize with `npx tailwindcss init`
