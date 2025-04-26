@@ -22,7 +22,7 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 - [x] Add Tailwind directives to `index.css`
 
 ### 1.4 Prepare Quote Data
-- [ ] Create `iconicQuotes.json` with at least 10 quotes, each including quote, character, episode, and season
+- [x] Create `iconicQuotes.json` with at least 10 quotes, each including quote, character, episode, and season (already present and curated)
 
 ---
 
