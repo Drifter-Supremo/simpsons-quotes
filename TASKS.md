@@ -35,11 +35,11 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 
 ### 2.2 Create QuoteCard Component
 - [x] In `QuoteCard.jsx`, display the quote, character, and episode
-- [ ] Apply the flip class based on the flipping prop
+- [x] Apply the flip class based on the flipping prop
 
 ### 2.3 Implement Quote Logic
 - [x] Create a function to select a random quote from `iconicQuotes.json`
-- [ ] On button click: set flipping to true, wait 250ms, select new quote, update state, set flipping to false
+- [x] On button click: set flipping to true, wait 250ms, select new quote, update state, set flipping to false
 
 ---
 
