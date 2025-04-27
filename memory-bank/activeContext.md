@@ -24,7 +24,7 @@
 - Implemented the basic structure and styling of src/App.jsx (layout, header, placeholder card, button).
 
 ### Next Steps
-- Create the QuoteCard.jsx component as the next logical step in UI implementation.
+- QuoteCard.jsx component now styled (padding, yellow background, rounded corners, shadow) as per theme. Step complete.
 
 ### Active Decisions and Considerations
 - Ensured no files were lost during Vite + React merge.

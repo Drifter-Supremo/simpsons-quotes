@@ -16,5 +16,5 @@ A lightweight web app that displays a random *iconic* Simpsons quote (seasons 1 
 ### User Experience Goals
 - Fast loading time.
 - Intuitive and easy to use interface.
-- Visually appealing with a Simpsons theme.
+- Visually appealing with a Simpsons theme. QuoteCard styled with padding, yellow background, rounded corners, and shadow.
 - Smooth animation for quote changes.

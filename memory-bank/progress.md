@@ -18,6 +18,7 @@
 - Configure Tailwind CSS.
 - Create and populate `iconicQuotes.json`.
 - Build the `QuoteCard.jsx` component with flip animation.
+- Style the `QuoteCard.jsx` with padding, background, rounded corners, and shadow. (Done)
 - Implement styling and add fonts.
 - Ensure mobile responsiveness.
 - Deploy the application.
@@ -29,7 +30,7 @@
 - src/data/iconicQuotes.json updated with curated quotes and meets all requirements for 1.4.
 - Tailwind CSS fully set up and configured.
 - Base UI structure implemented and styled.
-- Ready for next component development (QuoteCard.jsx).
+- QuoteCard component is now styled as per the theme (padding, yellow background, rounded corners, shadow). Ready for next steps.
 
 ### Known Issues
 - None yet.

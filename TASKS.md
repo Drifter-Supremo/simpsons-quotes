@@ -52,7 +52,7 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 
 ### 3.2 Style Components
 - [x] Style the header with Lilita One font (implemented in App.jsx)
-- [ ] Style the QuoteCard with appropriate padding and background
+- [x] Style the QuoteCard with appropriate padding and background
 - [x] Style the button with wiggle hover effect using CSS (implemented in index.css)
 
 ### 3.3 Implement Flip Animation
