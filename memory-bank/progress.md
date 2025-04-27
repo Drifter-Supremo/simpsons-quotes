@@ -19,7 +19,6 @@
 
 ### What's Left to Build
 - Complete the button click logic for quote change.
-- Deploy the application.
 - Ensure mobile responsiveness.
 - (Optional) Add season filter dropdown.
 
@@ -31,6 +30,7 @@
 - Base UI structure implemented and styled.
 - QuoteCard component is now styled as per the theme. 
 - Flip animation is implemented.
+- Deployment Platform Update: The project is now deployed using GitHub Pages (serving from the `/docs` folder on the `master` branch), instead of Vercel or Netlify. The Vite config uses the correct `base` path and the workflow is documented for future reference.
 
 ### Known Issues/Notes
 - None yet.

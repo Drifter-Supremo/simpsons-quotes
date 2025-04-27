@@ -13,7 +13,7 @@ A lightweight web app that displays a random *iconic* Simpsons quote (seasons 1 
 | Styling        | Tailwind CSS | Quick theming with Simpsons colors |
 | Animations     | CSS keyframes | Flip-card effect on quote change |
 | Data storage   | `iconicQuotes.json` | Hand-curated list (~10–30 lines) |
-| Deployment     | Vercel / Netlify | One-click static deploy |
+| Deployment     | GitHub Pages | Deployed as a static site using GitHub Pages (from the `/docs` folder on the `master` branch) |
 
 ---
 
