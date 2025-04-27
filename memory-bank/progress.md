@@ -15,6 +15,7 @@
 - Basic structure and styling of src/App.jsx implemented (layout, header, placeholder card, button).
 - QuoteCard component created and styled.
 - Quote logic implemented to select random quotes.
+- Improved quote shuffling system prevents repeats
 - Flip animation implemented using Framer Motion.
 
 ### What's Left to Build

@@ -22,6 +22,8 @@
 - Implemented Tailwind configuration with custom colors, fonts, and wiggle animation.
 - Set up base styles in src/index.css.
 - Implemented the basic structure and styling of src/App.jsx (layout, header, placeholder card, button).
+- Implemented Fisher-Yates shuffle algorithm for quote selection
+- Added prevention for consecutive duplicate quotes
 
 ### Next Steps
 - QuoteCard.jsx component now styled (padding, yellow background, rounded corners, shadow) as per theme. Step complete.

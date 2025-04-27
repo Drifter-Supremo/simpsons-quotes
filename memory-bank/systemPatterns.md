@@ -13,6 +13,7 @@
 ### Design Patterns in Use
 - Component-based architecture with React.
 - Local data storage.
+- Quote selection now uses Fisher-Yates shuffle to cycle through all quotes before repeating
 
 ### Component Relationships
 - `App.jsx` is the main container.

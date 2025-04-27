@@ -1,39 +1,63 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import QuoteCard from './components/QuoteCard';
 import quotesData from './data/iconicQuotes.json';
+
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
 
 function App() {
   // Animation duration constant (in seconds)
   const FLIP_DURATION = 0.6;
   
   // State variables
+  const [shuffledQuotes, setShuffledQuotes] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [currentQuote, setCurrentQuote] = useState(null);
   const [isFlipping, setIsFlipping] = useState(false);
 
-  // Function to get a random quote that's different from the current one
-  const getRandomQuote = () => {
-    if (quotesData.length === 0) return null;
+  // Function to get next quote from shuffled array
+  const getNextQuote = useCallback(() => {
+    if (shuffledQuotes.length === 0) return null;
     
-    // If there's only one quote, return it
-    if (quotesData.length === 1) return quotesData[0];
+    let nextIndex = currentIndex + 1;
+    let nextShuffledQuotes = shuffledQuotes;
     
-    // Get a random quote that's different from the current one
-    let newQuote;
-    do {
-      const randomIndex = Math.floor(Math.random() * quotesData.length);
-      newQuote = quotesData[randomIndex];
-    } while (
-      currentQuote &&
-      newQuote.quote === currentQuote.quote
-    );
+    // If we've reached the end, reshuffle and reset index
+    if (nextIndex >= shuffledQuotes.length) {
+      nextShuffledQuotes = shuffleArray(shuffledQuotes);
+      setShuffledQuotes(nextShuffledQuotes);
+      nextIndex = 0;
+    }
     
-    return newQuote;
-  };
+    // Ensure we don't show the same quote consecutively
+    if (nextShuffledQuotes[nextIndex]?.quote === currentQuote?.quote) {
+      nextIndex = (nextIndex + 1) % nextShuffledQuotes.length;
+    }
+    
+    setCurrentIndex(nextIndex);
+    return nextShuffledQuotes[nextIndex];
+  }, [shuffledQuotes, currentIndex, currentQuote]);
 
-  // Load initial quote on component mount
+  // Initialize shuffled quotes and load first quote
   useEffect(() => {
-    setCurrentQuote(getRandomQuote());
+    const initialShuffled = shuffleArray(quotesData);
+    setShuffledQuotes(initialShuffled);
+    setCurrentQuote(initialShuffled[0]);
   }, []);
+
+  // Reshuffle when quotes data changes
+  useEffect(() => {
+    const newShuffled = shuffleArray(quotesData);
+    setShuffledQuotes(newShuffled);
+    setCurrentIndex(0);
+    setCurrentQuote(newShuffled[0]);
+  }, [quotesData]);
 
   // Handle button click to get a new quote with animation
   const handleNewQuoteClick = () => {
@@ -45,8 +69,8 @@ function App() {
     
     // Update the quote halfway through the animation
     setTimeout(() => {
-      setCurrentQuote(getRandomQuote());
-    }, (FLIP_DURATION / 2) * 1000);
+      setCurrentQuote(getNextQuote());
+    }, 250); // 250ms delay as specified
     
     // Reset the flipping state after the animation completes
     setTimeout(() => {
