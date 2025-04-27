@@ -1,4 +1,4 @@
-﻿## **🛠️ Simpsons Quote Generator – Dev Brief**
+## **🛠️ Simpsons Quote Generator – Dev Brief**
 
 ### **🔹 Project Purpose**
 A lightweight web app that displays a random *iconic* Simpsons quote (seasons 1 – 9) each time the user presses a button. No backend required; quotes are stored locally in a JSON file for maximum speed and zero configuration.
@@ -43,8 +43,9 @@ src/ ├─ data/ │ └─ iconicQuotes.json ├─ components/ │ └─ Quo
 * Import `iconicQuotes.json` directly in `QuoteCard.jsx`
 * `randomQuote()` picks a quote with `Math.random()`
 * On button click:  
-  1. add `.flip` class (rotate Y 90° / 250 ms)  
-  2. after 250 ms, replace quote & remove class  
+  1. Trigger flip animation using Framer Motion and the flipping prop (rotate Y 90° / 250 ms)
+  2. After 250 ms, replace quote and reset flipping prop
+  3. No CSS classes are used for animation; all handled by Framer Motion and inline styles
 
 ---
 

@@ -34,4 +34,4 @@
 
 ### Known Issues/Notes
 - None yet.
-- Important: All styling should be kept inline. Changing to Tailwind classes caused issues previously, so it's crucial to maintain the current styling approach.
+- Important: All styling and animation are handled by Framer Motion and inline styles. No CSS classes are used for the flip animation or component styling.
