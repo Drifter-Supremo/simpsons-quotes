@@ -13,15 +13,14 @@
 - Tailwind configuration implemented with custom colors, fonts, and wiggle animation.
 - Base styles set up in src/index.css.
 - Basic structure and styling of src/App.jsx implemented (layout, header, placeholder card, button).
+- QuoteCard component created and styled.
+- Quote logic implemented to select random quotes.
+- Flip animation implemented using Framer Motion.
 
 ### What's Left to Build
-- Configure Tailwind CSS.
-- Create and populate `iconicQuotes.json`.
-- Build the `QuoteCard.jsx` component with flip animation.
-- Style the `QuoteCard.jsx` with padding, background, rounded corners, and shadow. (Done)
-- Implement styling and add fonts.
-- Ensure mobile responsiveness.
+- Complete the button click logic for quote change.
 - Deploy the application.
+- Ensure mobile responsiveness.
 - (Optional) Add season filter dropdown.
 
 ### Current Status
@@ -30,7 +29,9 @@
 - src/data/iconicQuotes.json updated with curated quotes and meets all requirements for 1.4.
 - Tailwind CSS fully set up and configured.
 - Base UI structure implemented and styled.
-- QuoteCard component is now styled as per the theme (padding, yellow background, rounded corners, shadow). Ready for next steps.
+- QuoteCard component is now styled as per the theme. 
+- Flip animation is implemented.
 
-### Known Issues
+### Known Issues/Notes
 - None yet.
+- Important: All styling should be kept inline. Changing to Tailwind classes caused issues previously, so it's crucial to maintain the current styling approach.

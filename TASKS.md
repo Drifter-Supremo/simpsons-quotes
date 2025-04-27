@@ -34,11 +34,11 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 - [x] Add a button to trigger the quote change
 
 ### 2.2 Create QuoteCard Component
-- [ ] In `QuoteCard.jsx`, display the quote, character, and episode
+- [x] In `QuoteCard.jsx`, display the quote, character, and episode
 - [ ] Apply the flip class based on the flipping prop
 
 ### 2.3 Implement Quote Logic
-- [ ] Create a function to select a random quote from `iconicQuotes.json`
+- [x] Create a function to select a random quote from `iconicQuotes.json`
 - [ ] On button click: set flipping to true, wait 250ms, select new quote, update state, set flipping to false
 
 ---
@@ -56,7 +56,7 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 - [x] Style the button with wiggle hover effect using CSS (implemented in index.css)
 
 ### 3.3 Implement Flip Animation
-- [ ] Define CSS keyframes for the flip animation (rotate Y 90°)
+- [x] Define CSS keyframes for the flip animation (rotate Y 90°)
 - [ ] Add CSS class to apply the animation when flipping is true
 
 ---
