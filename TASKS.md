@@ -1,6 +1,6 @@
 # TASKS.md — Simpsons Quote Generator
 
-A lightweight web app that displays random iconic Simpsons quotes from seasons 1 to 9, with a flip animation on quote change. Deployed as a static site on Vercel or Netlify.
+A lightweight web app that displays random iconic Simpsons quotes from seasons 1 to 9, with a flip animation on quote change. Deployed as a static site on GitHub Pages.
 
 ---
 
@@ -64,13 +64,9 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 ## 🌐 PHASE 4: DEPLOYMENT
 
 ### 4.1 Prepare for Production
-- [ ] Run `npm run build` to create the production build
-- [ ] Verify that the build works locally with `npm run preview`
+- [x] Run `npm run build` to create the production build
+- [x] Verify that the build works locally with `npm run preview`
 
-### 4.2 Deploy to Vercel or Netlify
-- [ ] Set up a new project on Vercel or Netlify
-- [ ] Connect the GitHub repository and deploy
-- [ ] Test the deployed application to ensure it functions correctly
 
 ---
 
