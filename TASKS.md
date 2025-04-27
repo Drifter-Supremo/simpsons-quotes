@@ -29,9 +29,9 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 ## 🎨 PHASE 2: FRONTEND DEVELOPMENT
 
 ### 2.1 Develop App Component
-- [ ] In `App.jsx`, add the header "D’OH! Quote Generator"
-- [ ] Manage state for the current quote and flipping state
-- [ ] Add a button to trigger the quote change
+- [x] In `App.jsx`, add the header "D’OH! Quote Generator"
+- [x] Manage state for the current quote and flipping state
+- [x] Add a button to trigger the quote change
 
 ### 2.2 Create QuoteCard Component
 - [ ] In `QuoteCard.jsx`, display the quote, character, and episode
@@ -46,14 +46,14 @@ A lightweight web app that displays random iconic Simpsons quotes from seasons 1
 ## 🎨 PHASE 3: STYLING AND ANIMATION
 
 ### 3.1 Apply Theme
-- [ ] Import Google Fonts: Lilita One and Karla
-- [ ] Set up the color palette: `#fdd835`, `#ef5350`, `#2196f3`
-- [ ] Style the layout to be single-column, max-width 480px, centered
+- [x] Import Google Fonts: Lilita One and Karla (configured in tailwind.config.js)
+- [x] Set up the color palette: `#fdd835`, `#ef5350`, `#2196f3` (partially done in tailwind.config.js)
+- [x] Style the layout to be single-column, max-width 480px, centered (implemented in App.jsx and index.css)
 
 ### 3.2 Style Components
-- [ ] Style the header with Lilita One font
+- [x] Style the header with Lilita One font (implemented in App.jsx)
 - [ ] Style the QuoteCard with appropriate padding and background
-- [ ] Style the button with wiggle hover effect using CSS
+- [x] Style the button with wiggle hover effect using CSS (implemented in index.css)
 
 ### 3.3 Implement Flip Animation
 - [ ] Define CSS keyframes for the flip animation (rotate Y 90°)
